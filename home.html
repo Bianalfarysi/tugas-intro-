@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="shortcut icon" href="home-unscreen.gif" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <video id="videoBackground" autoplay loop>
+        <source id="bgVideoSource" src="backgroundrumah1.mp4" type="video/mp4">
+    </video>
+
+    <div id="buttonsContainer">
+        <h1 class="homeh1">Selamat Datang player di rumah</h1>
+        <img class="home1" src="home-unscreen.gif" alt="home">
+        <button onclick="goBackToGame()">Kembali ke Game</button>
+        <button onclick="startMiniGame()">Main Game</button>
+        <button onclick="playVideoAsBackground('../lokasi1 home/yt1z.net - Hindia - Rumah Ke Rumah (_Official Lyric Commentary Video) (480p).mp4')">Rumah ke Rumah</button>
+        <button onclick="playVideoAsBackground('../lokasi1 home/yt1z.net - Cinematic Video Rumah - tempat berjuta kenangan (720p).mp4')">Cinematic Rumah</button>
+        <button onclick="openMusicSelection()">Putar lagu</button>
+    </div>
+
+    <button id="backToHome" onclick="goToHome()">Ke Menu</button>
+
+    <div id="videoContainer" style="display: none;">
+        <video id="videoPlayer" controls width="600">
+            <source id="videoSource" src="" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+        </video>
+        <button onclick="closeVideo()">Tutup Video</button>
+    </div>
+
+    <div id="musicSelection" style="display: none;">
+        <h2>Pilih Lagu</h2>
+        <select id="songList">
+            <option value="../lokasi6 workplace/yt1z.net - Ali Gatie - It s You (Official Lyrics Video) (320 KBps).mp3">Lagu 1</option>
+            <option value="../lokasi6 workplace/yt1z.net - Tunes SCBD - Kumpulan Lagu Hits Anak Jaksel (320 KBps).mp3">Playlist</option>
+        </select>
+        <button onclick="playSelectedSong()">Putar Lagu</button>
+        <button onclick="closeMusicSelection()">Tutup</button>
+    </div>
+
+    <audio id="musicPlayer" controls style="display: none;"></audio>
+
+    <script src="home.js"></script>
+</body>
+</html>

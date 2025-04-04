@@ -1,0 +1,235 @@
+UTS Intro to Internet Technology LAB/LEC
+KELOMPOK 9:
+1. Shiffa Qalbian Alfarysi (00000130143)
+2. Awang Raditya Pratama (00000133275)
+3. Rendy Cristian Boen (00000130679)
+
+- Deskripsi game nya
+tema dari game ini menjelajah nusatara dimana player memainkan game secara interaktif yang membawa player menjelajahi berbagai lokasi menarik di dalam game nya, seperti Pantai Parangtritis, Danau Toba, Gunung Rinjan, rumah, Pura Besakih, tempat kerja. dan juga player dapat memilih karakter nya sebelum game dimulai, dimana player dapat berinteraksi dengan lokasi atau lingkungan dalam game nya dan juga player dapat menyelesaikan berbagai misi atau tantangan untuk meningkatkan status bar karakter nya, dimana status bar karakter terdiri dari bar  hunger, bar energy, bar hygiene, bar happiness dan juga uang karakter nya di dalam game.
+
+- Peraturan Permainan : 
+1. Pemain harus memulai permainan dengan menekan tombol "Ayo Mulai" di layar pembuka.
+   - Tombol ini akan membawa pemain ke layar pemilihan karakter.
+
+2. Pemain wajib memilih karakter sebelum memulai permainan. Setiap karakter memiliki keunikan dan tampilan yang berbeda.
+   - Karakter terdiri dari 6 karakter yaitu karakter 1, karakter 2, karakter 3, karakter 4, karakter 5, dan karakter 6.
+   - Pemain dapat memilih salah satu dari keenam karakter tersebut.
+
+3. Setelah memilih karakter, pemain harus memasukkan nama karakter sesuai keinginan.
+   - Nama karakter dapat berupa nama asli atau nama fiktif yang diinginkan pemain.
+
+4. Pemain dapat memulai permainan dengan menekan tombol "Menjelajah Nusantara".
+    - Tombol ini akan membawa pemain ke layar permainan utama.
+
+5. Aturan Waktu dalam Game:
+   - Waktu dalam game berjalan dengan kecepatan yang berbeda dari waktu nyata.
+   - 1 Detik di dunia nyata = 1 Menit dalam game.
+   - Hari dalam game berlangsung dalam siklus 7 hari (Senin - Minggu).
+   - Waktu akan berjalan secara otomatis, dan status karakter akan berkurang seiring waktu.
+
+6. Pemain harus menjaga status karakter, yang terdiri dari bar hunger, bar energy, bar hygiene, dan bar happiness, agar tetap seimbang selama permainan berlangsung.
+
+7. Pemain dapat melakukan aktivitas yang berbeda di setiap lokasi untuk meningkatkan status karakter.
+ 
+8. Pemain dapat berinteraksi dengan berbagai objek dan lokasi, seperti rumah, pantai Parangtritis, Danau Toba, Gunung Rinjani, Pura Besakih, dan tempat kerja.
+    - Pemain dapat melakukan aktivitas yang ada di tiap lokasi di game.
+  
+9. Pemain dapat melakukan aktivitas yang berbeda di setiap lokasi untuk meningkatkan status karakter.
+Peraturan di Tiap Lokasi:
+- Rumah:
+    Get Meal: Mengisi hunger hingga penuh.
+    Take Bath: Mengisi hygiene hingga penuh.
+    Sleep: Memulihkan energy hingga penuh.
+    Do Chores: Menambah 20 koin, tetapi mengurangi hygiene sebanyak 20%.
+    Go To Home : pergi ke lokasi rumah. dimana player dapat melakukan aktivitas dan fitur-fitu di rumah.
+    ketika player sudah klik Go To Home akan pergi ke lokasinya dan jika player mau kembali ke game player harus klik tombol kembali ke game.
+    - Tombol ini akan membawa pemain kembali ke layar permainan utama.
+    - status semua bar karakter akan direset ke 50% dan uang karakter akan 500koin.
+
+- Pantai Parangtritis:
+    Sand Play: Meningkatkan happiness (+10%), tetapi mengurangi energy (-10%) dan hygiene (-10%).
+    Buy Drink: Mengurangi 10 koin, menambah energy dan hunger (+10%).
+    Buy Snack: Mengurangi 25 koin, menambah energy dan hunger (+10%).
+    Build Sandcastle: Meningkatkan happiness (+10%), tetapi mengurangi energy (-5%), hunger (-5%), dan hygiene (-5%).
+    Pick-Up Trash: Menambah 20 koin tetapi mengurangi hygiene (-10%).
+    Buy Souvenirs: Mengurangi 20 koin, menambah happiness (+10%).
+    Go To Pantai Parangtritis : dimana player dapat melakukan aktivitas dan fitur-fitur di pantai Parangtritis.
+    ketika player sudah klik Go To Pantai Parangtritis akan pergi ke lokasinya dan jika player mau kembali ke game player harus klik tombol kembali ke game.
+    - Tombol ini akan membawa pemain kembali ke layar permainan utama.
+    - status semua bar karakter akan direset ke 50% dan uang karakter akan 500koin.
+
+
+- Danau Toba:
+    Fish: Meningkatkan happiness (+10%) tetapi mengurangi energy (-5%) dan hunger (-5%).
+    Buy Souvenirs: Mengurangi 20 koin, menambah happiness (+10%).
+    Swim: Meningkatkan happiness (+5%) dan hygiene (+5%), tetapi mengurangi energy (-5%) dan hunger (-5%).
+    Picnic: Meningkatkan hunger (+5%), energy (+5%), dan happiness (+5%).
+    Photography: Menambah 20 koin tetapi mengurangi energy (-5%).
+    Go To Danau Toba : pergi ke lokasi danau toba. dimana player dapat melakukan aktivitas di danau toba.
+    ketika player sudah klik Go To Danau Toba akan pergi ke lokasinya dan jika player mau kembali ke game player harus klik tombol kembali ke game.
+    - Tombol ini akan membawa pemain kembali ke layar permainan utama.
+    - status semua bar karakter akan direset ke 50% dan uang karakter akan 500koin.
+
+- Gunung Rinjani:
+    Hike: Meningkatkan happiness (+15%), tetapi mengurangi hunger (-5%), energy (-5%), dan hygiene (-5%).
+    Camp: Meningkatkan hunger (+5%), energy (+5%), dan happiness (+5%).
+    Gather Wood: Menambah 50 koin, tetapi mengurangi hygiene (-5%), hunger (-5%), dan energy (-5%).
+    Cook: Meningkatkan energy (+10%), hunger (+10%), tetapi mengurangi hygiene (-5%).
+    Buy Souvenirs: Mengurangi 50 koin, menambah happiness (+10%).
+    Rest: Meningkatkan energy (+5%) dan hygiene (+5%).
+    Go To Gunung Rinjani: pergi ke lokasi gunung rinjani. dimana player dapat melakukan aktivitas di gunung rinjani.
+    ketika player sudah klik Go To Gunung Rinjani akan pergi ke lokasinya dan jika player mau kembali ke game player harus klik tombol kembali ke game.
+    - Tombol ini akan membawa pemain kembali ke layar permainan utama.
+    - status semua bar karakter akan direset ke 50% dan uang karakter akan 500koin.
+
+
+- Pura Besakih:
+    Pray: Meningkatkan happiness (+5%).
+    Meditate: Meningkatkan happiness (+5%) tetapi mengurangi hunger (-5%).
+    Read: Meningkatkan happiness (+5%).
+    Clean: Menambah 20 koin tetapi mengurangi hygiene (-10%).
+    Donate: Mengurangi 20 koin, menambah happiness (+5%).
+    Go To Pura Besakih: pergi ke lokasi pura besakih. dimana player dapat melakukan aktivitas di pura besakih.
+    ketika player sudah klik Go To Pura Besakih akan pergi ke lokasinya dan jika player mau kembali ke game player harus klik tombol kembali ke game.
+    - Tombol ini akan membawa pemain kembali ke layar permainan utama.
+    - status semua bar karakter akan direset ke 50% dan uang karakter akan 500koin.
+
+- Tempat Kerja:
+    Work: Menambah 500 koin tetapi mengurangi hygiene (-20%), hunger (-20%), energy (-20%), dan happiness (-20%).
+    Buy Drink: Mengurangi 50 koin, menambah energy (+5%) dan hunger (+5%).
+    Buy Food: Mengurangi 50 koin, menambah energy (+15%) dan hunger (+15%).
+    Pray: Meningkatkan happiness (+5%).
+    Go To Workplace : pergi ke lokasi tempat kerja. dimana player dapat melakukan aktivitas di tempat kerja. 
+    ketika player sudah klik Go To Workplace akan pergi ke lokasinya dan jika player mau kembali ke game player harus klik tombol kembali ke game.
+    - Tombol ini akan membawa pemain kembali ke layar permainan utama.
+    - status semua bar karakter akan direset ke 50% dan uang karakter akan 500koin.
+
+9. Navigasi Karakter:
+    - Pemain dapat menggerakkan karakter menggunakan tombol W, A, S, D atau tombol panah pada keyboard. atau menggunakan tombol dibagian kanan bawah pada game.
+    Gunakan tombol berikut untuk menggerakkan karakter:
+    W / ↑ : Bergerak ke atas
+    A / ← : Bergerak ke kiri
+    S / ↓ : Bergerak ke bawah
+    D / → : Bergerak ke kanan
+
+10. Game Over
+Game akan berakhir jika salah satu status karakter (Hunger, Energy, Hygiene, Happiness) mencapai 0. Pastikan kamu selalu menjaga keseimbangan dan mengatur strategi dengan baik!
+
+
+- Fitur-Fitur
+1. Pemilihan Karakter: Pemain dapat memilih dari beberapa karakter yang berbeda, masing-masing dengan tampilan unik. karakter terdiri 6 karakter yaitu karakter 1, karakter 2, karakter 3, karakter 4, karakter 5 dan karakter 6. Pemain dapat memilih salah satu dari keenam karakter tersebut.
+
+2. Interaksi Lingkungan: Pemain dapat berinteraksi dengan berbagai objek dan lokasi, seperti rumah, pantai Parangtritis, Danau Toba, Gunung Rinjani, Pura Besakih, dan tempat kerja. Pemain dapat melakukan aktivitas yang ada di tiap lokasi di game.
+
+3. Mini Games: Terdapat mini games yang dapat dimainkan, seperti tebak angka yang berada di lokasi home, permainan dadu yang berada di lokasi pantai Parangtritis, permainan Susun huruf ini menjadi kata yang benar yang berada di lokasi Danau Toba, permainan guting batu kertas yang berada di lokasi Gunung Rinjani, dan permainan pengetahua yang berada di lokasi pura besakih dan permainan simulasi kerja Jakarta yang berada di lokasi tempat kerja.
+
+4. Status Dinamis: Status karakter yang dinamis mempengaruhi gameplay, sehingga pemain harus strategis dalam memilih aktivitas.
+
+5. Audio dan Video: Setiap lokasi dilengkapi dengan audio dan video yang meningkatkan pengalaman bermain.
+
+- Dampak dari Fitur-Fitur
+   - Pengelolaan Sumber Daya: Pemain belajar mengelola makanan, energi, dan uang, mencerminkan pentingnya perencanaan.
+   - Interaksi Sosial: Mini games dan interaksi dengan karakter lain dapat meningkatkan keterampilan sosial dan     kerja sama.
+   - Kesadaran Lingkungan: Aktivitas seperti menjaga kebersihan dan berinteraksi dengan alam menanamkan kesadaran lingkungan.
+   - Kesehatan Mental: Game ini menekankan pentingnya kebahagiaan dan keseimbangan hidup.
+
+- Grading Rubric and ekspektasi score point
+
+APPLICATION INTERFACE and DOCUMENTATION: 30 points
+
+Criteria               
+1. Application Interface: Attractive, responsive, and well-structured UI with good 
+usability. 
+Maximum 
+Points : 10 
+Ekspektasi Points : 10
+alasan : UI game ini sangat menarik, responsif, dan terstruktur dengan baik.
+
+Criteria 
+2. Visual Assets: High-quality avatars, images, icons, etc. 
+Maximum
+Points : 10
+Ekspektasi Points : 10
+alasan : Visual assets yang digunakan dalam game ini sangat berkualitas tinggi dan menarik.
+
+Criteria
+3. README Documentation: Clear explanation of game rules. 
+Maximum
+Points : 5
+Ekspektasi Points : 5
+alasan : README documentation yang disediakan sangat jelas dan mudah dipahami.
+
+Criteria
+4. Presentation Video: A concise and well-structured demo, highlighting the key 
+features of the game.
+Maximum points : 5
+Ekspektasi Points : 5
+alasan : Video presentasi yang disediakan sangat jelas dan terstruktur dengan baik, menyoroti fitur-fitur utama dari game ini.
+
+ 
+GAME FEATURES: 50 points
+
+Criteria
+1. Avatar Selection: The player can choose an avatar and enter their name.
+Maximum Points : 5
+Ekspektasi Points : 5
+alasan : Pemain dapat memilih avatar dan memasukkan nama mereka dengan mudah.
+
+Criteria
+2. Player Status Display: Shows hunger, sleep, hygiene, happiness, and money. 
+Maximum Points : 3
+Ekspektasi Points : 3
+alasan : Status pemain ditampilkan dengan jelas dan mudah dipahami.
+
+Criteria
+3. Status Degradation Over Time: Status changes dynamically based on time 
+and activities. 
+Maximum Points : 4
+Ekspektasi Points : 4
+alasan : Status pemain berubah secara dinamis berdasarkan waktu dan aktivitas yang dilakukan.
+
+Criteria
+4. Game Time Simulation: In-game time (day and hour) works properly. 
+Maximum Points : 5
+Ekspektasi Points : 5
+alasan : Simulasi waktu dalam game berjalan dengan baik dan sesuai dengan ekspektasi.
+
+Criteria
+5. Navigation & Movement (Keyboard): The player can move using arrow keys 
+on the keyboard. 
+Maximum Points : 10
+Ekspektasi Points : 10
+alasan : Pemain dapat bergerak dengan menggunakan tombol panah pada keyboard dengan baik. dan juga menggunakan tombol w a s d pada keyboard.
+
+Criteria
+6. Navigation & Movement (Screen Buttons): The player can move using on
+screen navigation buttons. 
+Maximum Points : 10
+Ekspektasi Points : 10
+alasan : Pemain dapat bergerak dengan menggunakan tombol navigasi di layar dengan baik.
+
+Criteria
+7. Interactive Activities: Dynamic activity buttons that change based on the 
+player's location. 
+Maximum Points : 10
+Ekspektasi Points : 10
+alasan : Tombol aktivitas yang dinamis berubah berdasarkan lokasi pemain dengan baik.
+
+Criteria
+8. Activity Information: Hover effect displays information on activities that affect 
+money. 
+Maximum Points : 3
+Ekspektasi Points : 3
+alasan : Efek hover menampilkan informasi pada aktivitas yang mempengaruhi uang dengan baik.
+
+CREATIVITY: 20 points 
+
+Criteria
+1. Innovation in Gameplay & Features: Unique additions such as events, 
+promotions, jobs, or other creative mechanics.  
+Maximum Points : 20
+Ekspektasi Points : 20
+alasan : Game ini memiliki inovasi dalam gameplay dan fitur-fitur yang unik, seperti mengenal sejarah danau toba, dan adat istiadat nya, pekerjaan, dan mini game, backsound music, dan efek suara,dan mekanik kreatif lainnya.
+
+Ekspektasi score point : 100
+alasan : Game ini memenuhi semua ekspektasi yang diharapkan, dengan fitur-fitur yang menarik dan gameplay yang menyenangkan.

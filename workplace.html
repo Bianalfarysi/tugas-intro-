@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAKARTA</title>
+    <link rel="shortcut icon" href="job-16664310-unscreen.gif" type="image/x-icon">
+    <link rel="stylesheet" href="workplace.css">
+</head>
+<body>
+    <video id="videoBackground" autoplay loop>
+        <source id="bgVideoSource" src="yt1z.net - OFFICE HOURS JAKARTA CINEMATIC VIDEO Canon EOS R6 Mark II 4K (480p) (1).mp4" type="video/mp4">
+    </video>
+
+    <div id="buttonsContainer">
+        <h1 class="work1">Selamat Datang player di Workplace in JAKARTA</h1>
+        <img class="workimg1"   src="job-16664310-unscreen.gif" alt="home">
+        <button onclick="goBackToGame()">Kembali ke Game</button>
+        <button onclick="startMiniGame()">Main Game</button>
+        <button onclick="playVideoAsBackground('../lokasi6 workplace/yt1z.net - JAKARTA CINEMATIC VIDEO I SCBD DAY NIGHT WALKING (720p).mp4')">SCBD</button>
+        <button onclick="openMusicSelection()">LAGU MENEMANI KERJA MU</button>
+    </div>
+    
+    <button id="backToHome" onclick="goToHome()">Ke Menu</button>
+
+    <div id="videoContainer" style="display: none;">
+        <video id="videoPlayer" controls width="600">
+            <source id="videoSource" src="" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+        </video>
+        <button onclick="closeVideo()">Tutup Video</button>
+    </div>
+
+    <div id="musicSelection" style="display: none;">
+        <h2>Pilih Lagu</h2>
+        <select id="songList">
+            <option value="../lokasi6 workplace/yt1z.net - Ali Gatie - It s You (Official Lyrics Video) (320 KBps).mp3">Lagu 1</option>
+            <option value="../lokasi6 workplace/yt1z.net - Tunes SCBD - Kumpulan Lagu Hits Anak Jaksel (320 KBps).mp3">Playlist</option>
+        </select>
+        <button onclick="playSelectedSong()">Putar Lagu</button>
+        <button onclick="closeMusicSelection()">Tutup</button>
+    </div>
+
+    <audio id="musicPlayer" controls style="display: none;"></audio>
+
+    <script src="workplace.js"></script>
+</body>
+</html>

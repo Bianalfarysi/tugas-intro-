@@ -1,0 +1,18 @@
+.text1 {
+    animation-name: text;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunung Rinjani</title>
+    <link rel="shortcut icon" href="mountain1.gif" type="image/x-icon">
+    <link rel="stylesheet" href="mountain.css">
+</head>
+<body>
+    <video id="videoBackground" autoplay loop>
+        <source id="bgVideoSource" src="mountainbackground.mp4" type="video/mp4">
+    </video>
+
+    <div id="buttonsContainer">
+        <h1 class="mountain1">Selamat Datang player di Gunung Rinjani</h1>
+        <img class="mountainimg1"   src="mountain1.gif" alt="home">
+        <button onclick="goBackToGame()">Kembali ke Game</button>
+        <button onclick="startMiniGame()">Main Game</button>
+        <button onclick="playVideoAsBackground('../lokasi4 mountain/yt1z.net - LEGENDA GUNUNG RINJANI ~ Cerita Rakyat Nusa tenggara Barat Dongeng Kita (360p).mp4')">Story Gunung Rinjani</button>
+        <button onclick="playVideoAsBackground('../lokasi4 mountain/yt1z.net - Tradisi Lebaran Adat Sasak di Kaki Gunung Rinjani (480p).mp4')">Adat Istiadat Gunung Rinjani</button>
+        <button onclick="playVideoAsBackground('../lokasi4 mountain/yt1z.net - Incredible Rinjani Mountain - Lombok Island, Nusa Tenggara Barat, Indonesia Cinematic Documentary (720p).mp4')">Pesono Gunung Rinjani</button>
+    </div>
+    
+    <button id="backToHome" onclick="goToHome()">Ke Menu</button>
+
+    <div id="videoContainer" style="display: none;">
+        <video id="videoPlayer" controls width="600">
+            <source id="videoSource" src="" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+        </video>
+        <button onclick="closeVideo()">Tutup Video</button>
+    </div>
+
+    <script src="mountain.js"></script>
+</body>
+</html>

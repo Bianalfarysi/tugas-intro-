@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="beach-unscreen.gif" type="image/x-icon">
+    <title>Pantai Parangtritis</title>
+    <link rel="stylesheet" href="beach.css">
+</head>
+<body>
+    <video id="videoBackground" autoplay loop>
+        <source id="bgVideoSource" src="yt1z.net - Pantai Parangtritis Cinematic Vlog Parangtritis Beach (720p).mp4" type="video/mp4">
+    </video>
+
+    <div id="buttonsContainer">
+        <h1 class="beach1">Selamat Datang player di Pantai Parangtritis</h1>
+        <img class="beachimg1"   src="beach-unscreen.gif" alt="home">
+        <button onclick="goBackToGame()">Kembali ke Game</button>
+        <button onclick="startMiniGame()">Main Game</button>
+        <button onclick="playVideoAsBackground('../lokasi2 beach/yt1z.net - KISAH PARANGTRITIS CERITA RAKYAT (360p).mp4')">Story Pantai Parangtritis</button>
+        <button onclick="playVideoAsBackground('../lokasi2 beach/adat.mp4')">Adat Istiadat</button>
+        <button onclick="playVideoAsBackground('../lokasi2 beach/yt1z.net - PESONA PANTAI PARANGTRITIS YOGJAKARTA 2018 VIEW DRONE (720p).mp4')">Pesono Pantai Parangtritis</button>
+    </div>
+    
+    <button id="backToHome" onclick="goToHome()">Ke Menu</button>
+
+    <div id="videoContainer" style="display: none;">
+        <video id="videoPlayer" controls width="600">
+            <source id="videoSource" src="" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+        </video>
+        <button onclick="closeVideo()">Tutup Video</button>
+    </div>
+
+    <script src="beach.js"></script>
+</body>
+</html>

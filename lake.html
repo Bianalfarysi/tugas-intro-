@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="beach-unscreen.gif" type="image/x-icon">
+    <title>Danau Toba</title>
+    <link rel="shortcut icon" href="lake-unscreen.gif" type="image/x-icon">
+    <link rel="stylesheet" href="lake.css">
+</head>
+<body>
+    <video id="videoBackground" autoplay loop>
+        <source id="bgVideoSource" src="yt1z.net - Lake Toba Nature Cinematic Danau Toba cinematic danau toba (360p).mp4" type="video/mp4">
+    </video>
+
+    <div id="buttonsContainer">
+        <h1 class="Toba1">Selamat Datang player di Danau Toba</h1>
+        <img class="Tobaimg1"   src="lake-unscreen.gif" alt="home">
+        <button onclick="goBackToGame()">Kembali ke Game</button>
+        <button onclick="startMiniGame()">Main Game</button>
+        <button onclick="playVideoAsBackground('../lokasi3 lake/yt1z.net - Asal Usul Danau Toba Dongeng Anak Bahasa Indonesia Sebelum Tidur Cerita Rakyat Dongeng Nusantara (480p).mp4')">Story Danau Toba</button>
+        <button onclick="playVideoAsBackground('../lokasi3 lake/yt1z.net - Begini Serunya Upacara Adat Tradisional Suku Batak Toba di Tomok (360p).mp4')">Adat Istiadat</button>
+        <button onclick="playVideoAsBackground('../lokasi3 lake/yt1z.net - PESONA DANAU TOBA (480p).mp4')">PESONA DANAU TOBA</button>
+    </div>
+    
+    <button id="backToHome" onclick="goToHome()">Ke Menu</button>
+
+    <div id="videoContainer" style="display: none;">
+        <video id="videoPlayer" controls width="600">
+            <source id="videoSource" src="" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+        </video>
+        <button onclick="closeVideo()">Tutup Video</button>
+    </div>
+
+    <script src="lake.js"></script>
+</body>
+</html>

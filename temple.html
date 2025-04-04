@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pura Besakih</title>
+    <link rel="shortcut icon" href="temple-unscreen.gif" type="image/x-icon">
+    <link rel="stylesheet" href="temple.css">
+</head>
+<body>
+    <video id="videoBackground" autoplay loop>
+        <source id="bgVideoSource" src="yt1z.net - CINEMATIC BESAKIH TEMPLE, Pura Hindu Terbesar di bali Bali Saat Ini (720p) (1).mp4" type="video/mp4">
+    </video>
+
+    <div id="buttonsContainer">
+        <h1 class="temple1">Selamat Datang player di Pura Besakih</h1>
+        <img class="templeimg1"   src="temple-unscreen.gif" alt="home">
+        <button onclick="goBackToGame()">Kembali ke Game</button>
+        <button onclick="startMiniGame()">Main Game</button>
+        <button onclick="playVideoAsBackground('../lokasi5 temple/yt1z.net - Sejarah Asal Usul Pura Besakih (360p).mp4')">Story Pura Besakih</button>
+        <button onclick="playVideoAsBackground('../lokasi5 temple/yt1z.net - Upacara Ida Bhatara Turun Kabeh di Pura Agung Besakih (360p).mp4')">Adat Istiadat Pura Besakih</button>
+        <button onclick="playVideoAsBackground('../lokasi5 temple/yt1z.net - Besakih Temple Bali Indonesia 4K Ultra HD Video Scenic Video Bali 4K (480p).mp4')">Pesona Pura Besakih</button>
+    </div>
+    
+    <button id="backToHome" onclick="goToHome()">Ke Menu</button>
+
+    <div id="videoContainer" style="display: none;">
+        <video id="videoPlayer" controls width="600">
+            <source id="videoSource" src="" type="video/mp4">
+            Browser kamu tidak mendukung tag video.
+        </video>
+        <button onclick="closeVideo()">Tutup Video</button>
+    </div>
+
+    <script src="temple.js"></script>
+</body>
+</html>
